@@ -1,0 +1,50 @@
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+p {
+  font-family: Impact, Haettenschweiler, "Arial NarrowS", sans-serif;
+  margin-top: 0%;
+  padding-top: 0%;
+  text-align: center;
+}
+#board {
+  width: 400px;
+  height: 500px;
+  background-color: orange;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#numbox {
+  width: 393px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  border-radius: 10px;
+  border-color: orange;
+  font-size: 50px;
+}
+button {
+  display: inline-block; /* Display buttons in a row */
+  padding: 10px 22px 10px; /* Adjust padding as needed */
+  background-color: black; /* Set the background color */
+  color: #ffffff; /* Set the text color */
+  border: none;
+  border-radius: 5px; /* Apply rounded corners */
+  margin: 6px; /* Add some margin between buttons */
+  margin-left: 15px;
+  font-size: 50px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: orangered;
+}
+#lefto {
+  float: right;
+  padding-left: 40px;
+}
