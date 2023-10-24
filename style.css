@@ -2,7 +2,7 @@ h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 50px;
   text-align: center;
-  color: #ffffff;
+  color: orangered;
 }
 p {
   font-family: Impact, Haettenschweiler, "Arial NarrowS", sans-serif;
@@ -31,7 +31,7 @@ p {
 }
 button {
   display: inline-block; /* Display buttons in a row */
-  padding: 10px 22px 10px; /* Adjust padding as needed */
+  padding: 10px 15px 10px; /* Adjust padding as needed */
   background-color: black; /* Set the background color */
   color: #ffffff; /* Set the text color */
   border: none;
@@ -47,4 +47,10 @@ button:hover {
 #lefto {
   float: right;
   padding-left: 40px;
+  width: 120px;
+}
+.equ {
+  float: right;
+  padding-left: 40px;
+  width: 120px;
 }

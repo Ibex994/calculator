@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>HB Calculator</h1>
-    <p>Enjoy calculating</p>
+    <h1>Biruk & Hafiz's Calculator</h1>
+    <p>First Project</p>
     <div id="board">
       <input type="text" id="numbox" />
       <button onclick="clearAll()">C</button>
-      <button onclick="operate('()')">()</button>
+      <button onclick="operate('&#40;')">&#40;</button>
+      <button onclick="operate('&#41;')">&#41;</button>
       <button onclick="operate('%')">%</button>
       <button onclick="operate('/')">/</button>
       <button onclick="addNum('7')">7</button>
       <button onclick="addNum('8')">8</button>
       <button onclick="addNum('9')">9</button>
-      <button onclick="operate('*')" id="lefto">*</button>
+      <button id="lefto" onclick="operate('*')">*</button>
       <button onclick="addNum('4')">4</button>
       <button onclick="addNum('5')">5</button>
       <button onclick="addNum('6')">6</button>
@@ -31,7 +32,7 @@
       <button onclick="addNum('0')">0</button>
       <button onclick="addNum('00')">00</button>
       <button onclick="addNum('.')">.</button>
-      <button onclick="equal()">=</button>
+      <button class="equ" onclick="equal()">=</button>
     </div>
     <script src="script.js"></script>
   </body>
